@@ -74,33 +74,3 @@ for c in d["courses"]:
     for it in c["items"]:
         if it.get("pdf"): print(f"   {it['pdf']}?v={vhash(it['pdf'])}")
 
-# ---------------------------------------------------------------- term paper
-TALK = HERE/"talk"
-if (TALK/"slides.html").exists():
-    tv = hashlib.sha256((TALK/"slides.html").read_bytes()).hexdigest()[:12]
-    rows = [
-      ("slides.html?v="+tv, "Slide deck", "18 boards", True),
-    ]
-    body = "".join(
-      f'<a class="f" href="{h}" target="_blank" rel="noopener">'
-      f'<span class="ic">{SVG["ready"]}</span><span class="nm">{n}</span>'
-      f'<span class="pg">{m}</span></a>' if live else
-      f'<span class="f"><span class="ic">{SVG["drafting"]}</span>'
-      f'<span class="nm">{n}</span><span class="pg">{m}</span></span>'
-      for h,n,m,live in rows)
-    talk_page = f"""<!DOCTYPE html><html lang="en"><head><meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<meta http-equiv="Cache-Control" content="no-store, no-cache, must-revalidate, max-age=0">
-<meta http-equiv="Pragma" content="no-cache"><meta http-equiv="Expires" content="0">
-<meta name="robots" content="noindex, noarchive, nosnippet">
-<title>Eschede</title><style>{CSS}</style></head><body>
-<h1>Eschede &mdash; 3 June 1998</h1>
-<h2>UMT 312 term paper</h2>
-{body}
-<footer>2 December 2026, 09:30 &middot; 30 minute slot, 21 minutes speaking &middot;
-boards 1&ndash;9 Chidambar, 10&ndash;18 Akarsh.<br>
-Built {built}. Single file &middot; nothing stored on your device &middot; no external request.
-Arrow keys or click to move; <b>f</b> full screen, <b>e</b> extra notes, <b>d</b> dark.</footer>
-</body></html>"""
-    (TALK/"index.html").write_text(talk_page)
-    print(f"talk/index.html rebuilt -> slides.html?v={tv}")

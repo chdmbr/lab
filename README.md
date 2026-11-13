@@ -35,7 +35,6 @@ Reads `status.json`, hashes every PDF, writes `index.html`. That is the whole bu
 | `build.py` | makes `index.html` from it |
 | `index.html` | generated — do not edit by hand |
 | `pdf/` | the reports |
-| `talk/` | the UMT 312 term paper deck (Eschede), same rules |
 
 States: green tick submitted · amber dot ready to hand in · grey ring being written ·
 dashed ring waiting on data (that row is inert).
