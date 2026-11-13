@@ -1,0 +1,56 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Charpy + Jominy — Group 1 Friday data</title><link rel="stylesheet" href="shared.css"></head><body>
+<header>
+<h1>Lab D &middot; Charpy impact + Jominy end quench</h1>
+<p class="sub">Group 1 (Friday) &middot; tested 30 October 2026 &middot; liquid nitrogen group &middot; EN-8, austenitised 900&nbsp;&deg;C / 30&nbsp;min</p>
+<nav><a href="index.html">Why this page</a><a class="on" href="charpy.html">Our Charpy + Jominy data</a><a href="hardness.html">Hardness entry sheet</a></nav>
+</header>
+
+<div class="box">Pendulum capacity <b>300&nbsp;J</b>. Reported energies are the <b>mechanical dial</b>
+readings (error &plusmn;0.2&nbsp;J), not the electronic display (&plusmn;2.26&nbsp;J). Specific energy
+<i>a<sub>k</sub></i> = KV / [W(H&minus;2)], the notch being cut across one of the 55&times;10&nbsp;mm faces.</div>
+
+<h2>Charpy impact</h2>
+<table>
+<tr><th>Specimen</th><th>Condition</th><th class="n">W (mm)</th><th class="n">H (mm)</th><th class="n">T test (&deg;C)</th><th class="n">Dial KV (J)</th><th class="n">a<sub>k</sub> (J/cm&sup2;)</th><th class="n">HV<sub>100</sub></th></tr>
+<tr><td>Cu</td><td>copper</td><td class="n">9.96</td><td class="n">10.06</td><td class="n">&minus;80</td><td class="n">212</td><td class="n">264.1</td><td class="n">&mdash;</td></tr>
+<tr><td>SS</td><td>austenitic stainless</td><td class="n">9.92</td><td class="n">9.94</td><td class="n">&minus;61</td><td class="n">107</td><td class="n">135.9</td><td class="n">&mdash;</td></tr>
+<tr><td>3</td><td>EN-8 air cooled</td><td class="n">9.92</td><td class="n">9.94</td><td class="n">&minus;49</td><td class="n">3.0</td><td class="n">3.81</td><td class="n">173.7</td></tr>
+<tr><td>4</td><td>EN-8 water quenched</td><td class="n">9.99</td><td class="n">9.99</td><td class="n">&minus;55</td><td class="n">2.3</td><td class="n">2.88</td><td class="n">255.5</td></tr>
+<tr><td>5</td><td>EN-8 furnace cooled</td><td class="n">9.74</td><td class="n">9.92</td><td class="n">&minus;63</td><td class="n">2.0</td><td class="n">2.59</td><td class="n">147.8</td></tr>
+</table>
+<p class="sub"><b>Two warnings if you use these.</b> (1) The copper <b>never broke</b> &mdash; it folded
+into a V and stayed in one piece, so 212&nbsp;J is a lower bound on its toughness, not a fracture
+energy. (2) The stainless steel's electronic display read 299.86&nbsp;J, which is the full 300&nbsp;J
+swing &mdash; a machine fault. The dial read 107&nbsp;J and that is the real figure.</p>
+
+<h2>Fracture surfaces</h2>
+<p class="sub">All six EN-8 halves: flat and shiny, 100&nbsp;% cleavage, 0&nbsp;% shear, no lateral
+expansion, no shear lips &mdash; the three heat treatments were indistinguishable by eye. Stainless
+steel: dull, fibrous, chevron markings, shear lips. Copper: did not separate.</p>
+
+<h2>Jominy end quench &mdash; EN-8, 900&nbsp;&deg;C / 30&nbsp;min, Rockwell C</h2>
+<table>
+<tr><th class="n">x (mm)</th><th class="n">HRC</th><th class="n">x (mm)</th><th class="n">HRC</th><th class="n">x (mm)</th><th class="n">HRC</th></tr>
+<tr><td class="n">0 (face)</td><td class="n">50</td><td class="n">9</td><td class="n">24</td><td class="n">25</td><td class="n">17</td></tr>
+<tr><td class="n">1.5</td><td class="n">27</td><td class="n">10.5</td><td class="n">22.25</td><td class="n">30</td><td class="n">16</td></tr>
+<tr><td class="n">3.0</td><td class="n">26.5</td><td class="n">12</td><td class="n">23</td><td class="n">35</td><td class="n">15</td></tr>
+<tr><td class="n">4.5</td><td class="n">26</td><td class="n">13.5</td><td class="n">21.5</td><td class="n">40</td><td class="n">14</td></tr>
+<tr><td class="n">6.0</td><td class="n">25</td><td class="n">15</td><td class="n">21</td><td class="n">45</td><td class="n">13.5</td></tr>
+<tr><td class="n">7.5</td><td class="n">23.75</td><td class="n">20</td><td class="n">19</td><td class="n">50</td><td class="n">13</td></tr>
+</table>
+<p class="sub">The quenched face scattered 43&ndash;50&nbsp;HRC across repeat readings; 50 is quoted.
+That face is scaled, unground and not square to the indenter, and every one of those faults pushes a
+Rockwell reading <i>down</i>, never up &mdash; so the spread is one-sided and the highest reading is
+the best estimate. It is also closest to the 55&ndash;57&nbsp;HRC expected of fully martensitic
+0.4&nbsp;wt%&nbsp;C steel. ASTM&nbsp;A255 starts its traverse at 1.6&nbsp;mm anyway, so the 0&nbsp;mm
+point is excluded from any fit.</p>
+
+<div class="box"><b>The headline result.</b> Water-quenched EN-8 reaches only 23&ndash;27&nbsp;HRC a
+millimetre or two below the surface &mdash; the Jominy bar and the water-quenched Charpy bar
+(255.5&nbsp;HV &asymp; 23&nbsp;HRC) agree independently. EN-8 does not through-harden.</div>
+
+<footer>Group 1 (Friday). Dimensions by vernier; Vickers at 100&nbsp;kgf, 10&nbsp;s, three indents per
+specimen, both diagonals measured.</footer>
+</body></html>
