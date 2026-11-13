@@ -40,7 +40,7 @@
           "done": "22 Oct",
           "due": "5 Nov",
           "state": "ready",
-          "pdf": "pdf/302-2-sedimentation.pdf",
+          "pdf": "pdf/UMT302L_Sedimentation_Decantation_Group5.pdf",
           "pages": 5
         },
         {
@@ -49,7 +49,7 @@
           "done": "29 Oct",
           "due": "12 Nov",
           "state": "ready",
-          "pdf": "pdf/302-6-nylon.pdf",
+          "pdf": "pdf/UMT302L_Nylon66_Synthesis_Group5.pdf",
           "pages": 6
         }
       ]
@@ -92,7 +92,7 @@
           "done": "30 Oct",
           "due": "13 Nov",
           "state": "ready",
-          "pdf": "pdf/312-4-charpy-jominy.pdf",
+          "pdf": "pdf/UMT312L_Charpy_Jominy_Group1.pdf",
           "pages": 13
         },
         {
@@ -101,7 +101,7 @@
           "done": "6 Nov",
           "due": "20 Nov",
           "state": "ready",
-          "pdf": "pdf/312-5-creep.pdf",
+          "pdf": "pdf/UMT312L_Creep_Group1.pdf",
           "pages": 8
         },
         {
@@ -110,7 +110,7 @@
           "done": "13 Nov",
           "due": "27 Nov",
           "state": "ready",
-          "pdf": "pdf/312-6-hardness.pdf",
+          "pdf": "pdf/UMT312L_Hardness_Group1.pdf",
           "pages": 11
         }
       ]
