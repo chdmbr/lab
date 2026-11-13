@@ -1,0 +1,25 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>All reports — UMT 302L &amp; UMT 312L</title><link rel="stylesheet" href="shared.css"></head><body>
+<header>
+<h1>Laboratory reports</h1>
+<p class="sub">Chidambar &amp; Mayank Bohat &middot; UMT&nbsp;302L (Group 5, Thursday) &amp; UMT&nbsp;312L (Group 1, Friday) &middot; Autumn 2026</p>
+<nav><a href="index.html">Why this page</a><a href="charpy.html">Our Charpy + Jominy data</a><a href="hardness.html">Hardness entry sheet</a><a class="on" href="reports.html">All reports</a></nav>
+</header>
+<p class="sub" id="count">loading&hellip;</p>
+<div id="reps"></div>
+<div class="box">
+<b><span id="lg1"></span> submitted</b> &mdash; handed in.&nbsp;&nbsp;
+<b><span id="lg2"></span> ready</b> &mdash; written and checked, not handed in yet.&nbsp;&nbsp;
+<b><span id="lg3"></span> in progress</b> &mdash; still being written; the button is greyed out and will not open.
+</div>
+<div class="box warn">
+Reports are here so our own group can find them and so the class can see what has been
+covered. <b>Read them, do not copy them.</b> Handing in the same text is collusion and a marker
+spots it immediately. The raw numbers, which is what you actually need for the across-group
+sections, are on the <a href="charpy.html">data pages</a> &mdash; take those freely.
+</div>
+<script src="status.js"></script><script src="render.js"></script><script>renderReports('reps');['lg1','lg2','lg3'].forEach((id,i)=>{const e=document.getElementById(id);if(e)e.innerHTML=SVG[['submitted','ready','drafting'][i]]});</script>
+<footer>Status is read from <code>status.json</code> in this repository, so the page and the
+file can never disagree.</footer>
+</body></html>
