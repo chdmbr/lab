@@ -97,10 +97,12 @@
         },
         {
           "n": "5",
-          "title": "Creep (Pb-Sn solder, 8 and 4 MPa at 120 °C)",
+          "title": "Creep (63Sn-37Pb, 120 °C)",
           "done": "6 Nov",
           "due": "20 Nov",
-          "state": "waiting"
+          "state": "ready",
+          "pdf": "pdf/312-5-creep.pdf",
+          "pages": 7
         },
         {
           "n": "6",
