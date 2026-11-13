@@ -109,7 +109,7 @@ window.STATUS={
           "due": "27 Nov",
           "state": "drafting",
           "pdf": "pdf/312-6-hardness-datasheet.pdf",
-          "pages": 3
+          "pages": 2
         }
       ]
     }
