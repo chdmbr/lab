@@ -104,12 +104,12 @@ window.STATUS={
         },
         {
           "n": "6",
-          "title": "Hardness (Brinell, Vickers) — data sheet",
+          "title": "Hardness (Brinell, Vickers)",
           "done": "13 Nov",
           "due": "27 Nov",
-          "state": "drafting",
-          "pdf": "pdf/312-6-hardness-datasheet.pdf",
-          "pages": 2
+          "state": "ready",
+          "pdf": "pdf/312-6-hardness.pdf",
+          "pages": 11
         }
       ]
     }
