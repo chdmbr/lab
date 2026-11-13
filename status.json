@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-13",
+  "updated": "2026-11-14",
   "who": "Chidambar & Mayank Bohat",
   "courses": [
     {
@@ -39,7 +39,7 @@
           "title": "Sedimentation + decantation",
           "done": "22 Oct",
           "due": "5 Nov",
-          "state": "ready",
+          "state": "submitted",
           "pdf": "pdf/UMT302L_Sedimentation_Decantation_Thursday_Gp5.pdf",
           "pages": 5
         },
@@ -48,7 +48,7 @@
           "title": "Nylon 6,6 synthesis",
           "done": "29 Oct",
           "due": "12 Nov",
-          "state": "ready",
+          "state": "submitted",
           "pdf": "pdf/UMT302L_Nylon66_Synthesis_Thursday_Gp5.pdf",
           "pages": 6
         }
@@ -91,7 +91,7 @@
           "title": "Charpy impact + Jominy",
           "done": "30 Oct",
           "due": "13 Nov",
-          "state": "ready",
+          "state": "submitted",
           "pdf": "pdf/UMT312L_Charpy_Jominy_Friday_Gp1.pdf",
           "pages": 13
         },
