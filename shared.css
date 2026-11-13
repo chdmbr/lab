@@ -1,48 +1,16 @@
-:root{--ink:#15171c;--mut:#667085;--line:#d6dae1;--bg:#fff;--acc:#14407a;--warn:#b00020}
+:root{--ink:#15171c;--mut:#737b88;--line:#dfe3e8}
 *{box-sizing:border-box}
-body{font:16px/1.55 -apple-system,Segoe UI,Roboto,sans-serif;color:var(--ink);background:var(--bg);margin:0;padding:18px;max-width:900px;margin-inline:auto}
-header{border-bottom:3px solid var(--ink);padding-bottom:10px;margin-bottom:16px}
-h1{font-size:23px;margin:0 0 4px}
-h2{font-size:18px;margin:26px 0 6px;border-top:1px solid var(--line);padding-top:14px}
-.sub{color:var(--mut);font-size:14px;margin:0}
-nav a{display:inline-block;margin:8px 10px 0 0;padding:7px 13px;border:2px solid var(--ink);border-radius:7px;text-decoration:none;color:var(--ink);font-weight:600;font-size:14px}
-nav a.on{background:var(--ink);color:#fff}
-table{border-collapse:collapse;width:100%;margin:10px 0;font-size:14px}
-th,td{border:1px solid var(--line);padding:6px 8px;text-align:left;vertical-align:top}
-th{background:#eef1f5;font-weight:600}
-td.n{text-align:right;font-family:ui-monospace,Menlo,monospace}
-.box{border-left:4px solid var(--acc);background:#f4f7fc;padding:10px 14px;margin:14px 0;font-size:15px}
-.warn{border-left-color:var(--warn);background:#fdf3f4}
-code{background:#eef1f5;padding:1px 5px;border-radius:4px;font-size:13px}
-footer{margin-top:34px;border-top:1px solid var(--line);padding-top:12px;color:var(--mut);font-size:13px}
-
-/* ---- report cards ---- */
-.rep{border:1px solid var(--line);border-radius:10px;margin:10px 0;padding:11px 13px}
-.rep .hd{display:flex;gap:11px;align-items:flex-start}
-.rep .ic{font-family:"DejaVu Sans","Noto Sans Symbols2","Segoe UI Symbol",sans-serif;font-size:19px;width:22px;flex:none;text-align:center}
-.rep .bd{flex:1;min-width:0}
-.rep .ti{font-weight:650;font-size:15px}
-.rep .me{color:var(--mut);font-size:13px;margin-top:2px}
-.rep.submitted{background:#f3faf5;border-color:#bfe3cd}
-.rep.ready{background:#fffdf2;border-color:#ecdba6}
-.rep.drafting,.rep.waiting{background:#f8f9fb}
-.tag{font-size:11px;font-weight:700;letter-spacing:.4px;text-transform:uppercase;padding:2px 7px;border-radius:20px;margin-left:7px;vertical-align:2px}
-.tag.submitted{background:#0b6b3a;color:#fff}
-.tag.ready{background:#9a6b00;color:#fff}
-.tag.drafting,.tag.waiting{background:#dde1e7;color:#5c6573}
-/* horizontal scrolling strip of PDFs inside each card */
-.strip{display:flex;gap:9px;overflow-x:auto;padding:9px 1px 3px;margin-left:33px;
-       scroll-snap-type:x proximity;-webkit-overflow-scrolling:touch}
-.strip::-webkit-scrollbar{height:7px}
-.strip::-webkit-scrollbar-thumb{background:#c4cad3;border-radius:4px}
-.card{flex:0 0 auto;scroll-snap-align:start;width:190px;border:2px solid var(--ink);
-      border-radius:9px;padding:9px 11px;text-decoration:none;color:var(--ink);background:#fff;
-      display:flex;flex-direction:column;gap:2px}
-.card:hover{background:var(--ink);color:#fff}
-.card .pg{font-size:10px;font-weight:800;letter-spacing:1px;opacity:.6}
-.card .lb{font-size:13px;font-weight:650;line-height:1.25}
-.card .sz{font-size:11px;opacity:.65}
-.card.off{border-style:dashed;border-color:#c3c9d2;color:#9aa2ae;background:#f2f4f7;cursor:not-allowed}
-.card.off:hover{background:#f2f4f7;color:#9aa2ae}
-h3.c{font-size:16px;margin:24px 0 2px}
-h3.c small{font-weight:400;color:var(--mut)}
+body{font:16px/1.5 -apple-system,Segoe UI,Roboto,sans-serif;color:var(--ink);background:#fff;
+     margin:0;padding:20px 16px 40px;max-width:640px;margin-inline:auto}
+h1{font-size:20px;margin:0 0 2px}
+p.sub{color:var(--mut);font-size:13px;margin:0 0 18px}
+h2{font-size:13px;letter-spacing:.8px;text-transform:uppercase;color:var(--mut);
+   margin:26px 0 6px;font-weight:700}
+a.f,span.f{display:flex;align-items:center;gap:11px;padding:12px 13px;border:1px solid var(--line);
+   border-radius:9px;margin:7px 0;text-decoration:none;color:var(--ink);background:#fff}
+a.f:hover{background:#f5f7fa;border-color:#b9c0c9}
+span.f{color:#a9b0ba;background:#fafbfc;border-style:dashed;cursor:not-allowed}
+.f .ic{flex:none;width:20px;display:flex}
+.f .nm{flex:1;min-width:0;font-size:15px;font-weight:600;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.f .pg{flex:none;font-size:12px;color:var(--mut)}
+span.f .pg{color:#b6bcc5}

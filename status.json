@@ -13,14 +13,8 @@
           "done": "17 Sep",
           "due": "1 Oct",
           "state": "submitted",
-          "note": "handed in as one combined report",
-          "files": [
-            {
-              "label": "report",
-              "pdf": "pdf/302-34-leaching-cementation.pdf",
-              "pages": 11
-            }
-          ]
+          "pdf": "pdf/302-34-leaching-cementation.pdf",
+          "pages": 11
         },
         {
           "n": "5",
@@ -28,13 +22,8 @@
           "done": "1 Oct",
           "due": "15 Oct",
           "state": "submitted",
-          "files": [
-            {
-              "label": "report",
-              "pdf": "pdf/302-5-electrowinning.pdf",
-              "pages": 6
-            }
-          ]
+          "pdf": "pdf/302-5-electrowinning.pdf",
+          "pages": 6
         },
         {
           "n": "1",
@@ -42,13 +31,8 @@
           "done": "8 Oct",
           "due": "29 Oct",
           "state": "submitted",
-          "files": [
-            {
-              "label": "report",
-              "pdf": "pdf/302-1-sieve.pdf",
-              "pages": 6
-            }
-          ]
+          "pdf": "pdf/302-1-sieve.pdf",
+          "pages": 6
         },
         {
           "n": "2",
@@ -56,14 +40,8 @@
           "done": "22 Oct",
           "due": "5 Nov",
           "state": "ready",
-          "note": "d50 = 20.1 um, d80 = 29.0 um, 82.9 % recovery",
-          "files": [
-            {
-              "label": "report",
-              "pdf": "pdf/302-2-sedimentation.pdf",
-              "pages": 5
-            }
-          ]
+          "pdf": "pdf/302-2-sedimentation.pdf",
+          "pages": 5
         },
         {
           "n": "6",
@@ -71,14 +49,8 @@
           "done": "29 Oct",
           "due": "12 Nov",
           "state": "ready",
-          "note": "theoretical yield 1.9475 g",
-          "files": [
-            {
-              "label": "report",
-              "pdf": "pdf/302-6-nylon.pdf",
-              "pages": 6
-            }
-          ]
+          "pdf": "pdf/302-6-nylon.pdf",
+          "pages": 6
         }
       ]
     },
@@ -93,13 +65,8 @@
           "done": "9 Oct",
           "due": "23 Oct",
           "state": "submitted",
-          "files": [
-            {
-              "label": "report",
-              "pdf": "pdf/312-1-tensile.pdf",
-              "pages": 15
-            }
-          ]
+          "pdf": "pdf/312-1-tensile.pdf",
+          "pages": 15
         },
         {
           "n": "2",
@@ -107,13 +74,8 @@
           "done": "16 Oct",
           "due": "30 Oct",
           "state": "submitted",
-          "files": [
-            {
-              "label": "report",
-              "pdf": "pdf/312-2-bend.pdf",
-              "pages": 20
-            }
-          ]
+          "pdf": "pdf/312-2-bend.pdf",
+          "pages": 20
         },
         {
           "n": "3",
@@ -121,13 +83,8 @@
           "done": "23 Oct",
           "due": "6 Nov",
           "state": "submitted",
-          "files": [
-            {
-              "label": "report",
-              "pdf": "pdf/312-3-fatigue.pdf",
-              "pages": 11
-            }
-          ]
+          "pdf": "pdf/312-3-fatigue.pdf",
+          "pages": 11
         },
         {
           "n": "4",
@@ -135,27 +92,15 @@
           "done": "30 Oct",
           "due": "13 Nov",
           "state": "ready",
-          "note": "raw data sheet also below",
-          "files": [
-            {
-              "label": "report",
-              "pdf": "pdf/312-4-charpy-jominy.pdf",
-              "pages": 13
-            },
-            {
-              "label": "raw data for other groups",
-              "pdf": "pdf/312-4-charpy-jominy-rawdata.pdf",
-              "pages": 5
-            }
-          ]
+          "pdf": "pdf/312-4-charpy-jominy.pdf",
+          "pages": 13
         },
         {
           "n": "5",
           "title": "Creep (Pb-Sn, 9 and 5 MPa at 110 C)",
           "done": "6 Nov",
           "due": "20 Nov",
-          "state": "waiting",
-          "note": "needs the DAQ file from the lab PC"
+          "state": "waiting"
         },
         {
           "n": "6",
@@ -163,14 +108,8 @@
           "done": "13 Nov",
           "due": "27 Nov",
           "state": "drafting",
-          "note": "72 diameters read from 36 micrographs; 3 blocks of 5 indents still to measure",
-          "files": [
-            {
-              "label": "data status sheet (what is measured, what is blank)",
-              "pdf": "pdf/312-6-hardness-datasheet.pdf",
-              "pages": 3
-            }
-          ]
+          "pdf": "pdf/312-6-hardness-datasheet.pdf",
+          "pages": 3
         }
       ]
     }
