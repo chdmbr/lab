@@ -97,14 +97,14 @@ window.STATUS={
         },
         {
           "n": "5",
-          "title": "Creep (Pb-Sn, 9 and 5 MPa at 110 C)",
+          "title": "Creep (Pb-Sn solder, 8 and 4 MPa at 120 °C)",
           "done": "6 Nov",
           "due": "20 Nov",
           "state": "waiting"
         },
         {
           "n": "6",
-          "title": "Hardness (Brinell, Vickers, Rockwell)",
+          "title": "Hardness (Brinell, Vickers) — data sheet",
           "done": "13 Nov",
           "due": "27 Nov",
           "state": "drafting",
